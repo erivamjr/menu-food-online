@@ -1,8 +1,10 @@
 {
   "scripts": {
-    "tail": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
+    "tail": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "start": "live-server --port=8080 --entry-file=./src/index.html"
   },
   "devDependencies": {
+    "live-server": "^1.1.0",
     "tailwindcss": "^3.4.3"
   }
 }
